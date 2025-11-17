@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fight in a Supermarket Script – Auto Farm, Kill Aura & Money Farm Roblox 2025</title>
+  <meta name="description" content="Download working Fight in a Supermarket scripts with Auto Farm Money, Kill Aura, Teleport Kill, ESP, Hitbox and more features. Keyless scripts for mobile & PC executors.">
+  <meta name="author" content="Fight in a Supermarket Community">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://fight-in-a-supermarket-script.vercel.app/">
+  <meta property="og:title" content="Fight in a Supermarket Script">
+  <meta property="og:description" content="Best collection of Fight in a Supermarket scripts with Auto Farm Money, Kill Aura, Teleport, and more. Keyless & mobile-compatible.">
+  <meta property="og:url" content="https://fight-in-a-supermarket-script.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fight in a Supermarket Script Collection">
+  <meta name="twitter:description" content="Working scripts for Fight in a Supermarket - Auto Farm Money, Kill Aura, and more!">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .subnav {
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-top:10px;
+    flex-wrap:wrap;
+  }
+  .subnav a {
+    padding:8px 14px;
+    background:linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+    color:#FFFFFF;
+    text-decoration:none;
+    border-radius:10px;
+    border:3px solid #1B5E20;
+    font-weight:700;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+  }
+
+  .hero {
+    max-width:1100px;
+    margin: 18px auto;
+    padding:18px;
+    text-align:left;
+  }
+  .hero h1 { font-size:2rem; margin:0 0 6px; color:#2E7D32; text-shadow: 2px 2px 0 #FFC107; }
+  .hero p { margin:6px 0; line-height:1.45; color:#2c3e50; }
+
+  .container {
+    max-width:1100px;
+    margin: 8px auto 40px;
+    padding: 0 12px;
+    display:grid;
+    gap:18px;
+    grid-template-columns: 1fr;
+  }
+
+  @media(min-width:900px){
+    .container { grid-template-columns: 1fr 360px; }
+  }
+
+  .card {
+    background: linear-gradient(180deg,#FFFFFF 0%, #F1F8E9 100%);
+    padding:14px;
+    border-radius:12px;
+    border:4px solid #2E7D32;
+    box-shadow: 6px 6px 0 rgba(46, 125, 50, 0.3);
+    overflow:hidden;
+    word-wrap:break-word;
+    margin-bottom:16px;
+  }
+
+  .card h3 {
+    color:#2E7D32;
+    text-shadow:2px 2px 0 rgba(255, 193, 7, 0.5);
+    margin-top:0;
+  }
+
+  .script-block {
+    background:#1B5E20;
+    color:#A5D6A7;
+    padding:12px;
+    border-radius:10px;
+    font-family: "Courier New", monospace;
+    font-size:0.92rem;
+    max-height:360px;
+    overflow:auto;
+    border:4px solid #FFC107;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    -webkit-overflow-scrolling: touch;
+    word-break:break-word;
+  }
+
+  @media (max-width:420px) {
+    .script-block {
+      max-height:240px;
+      font-size:0.88rem;
+      padding:10px;
+    }
+  }
+
+  .script-actions {
+    margin-top:10px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+
+  .btn-copy, .btn-download {
+    display:inline-block;
+    padding:10px 12px;
+    border-radius:10px;
+    background:linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+    color:#FFFFFF;
+    text-decoration:none;
+    border:3px solid #1B5E20;
+    box-shadow:4px 4px 0 #0D4E17;
+    font-weight:800;
+    cursor:pointer;
+    min-width:110px;
+    text-align:center;
+    text-shadow:1px 1px 0 rgba(0,0,0,0.5);
+  }
+
+  .btn-download {
+    background:linear-gradient(135deg, #FFC107 0%, #FFD54F 100%);
+    color:#1B5E20;
+    border:3px solid #FFA000;
+    box-shadow:4px 4px 0 #FF8F00;
+    text-shadow:1px 1px 0 rgba(255,255,255,0.3);
+  }
+
+  .small {
+    font-size:0.95rem;
+    color:#2c3e50;
+  }
+
+  #toast {
+    position: fixed;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:24px;
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+    color:#FFFFFF;
+    padding:10px 16px;
+    border-radius:10px;
+    border:3px solid #1B5E20;
+    display:none;
+    z-index:9999;
+    font-weight:800;
+    box-shadow:4px 4px 0 rgba(0,0,0,0.6);
+  }
+
+  body, html {
+    overflow-x: hidden;
+  }
+
+  @media (max-width:360px) {
+    .subnav a { padding:6px 10px; font-size:0.85rem; }
+    .hero h1 { font-size:1.4rem; }
+    .hero p { font-size:0.95rem; }
+    .btn-copy, .btn-download { min-width:90px; padding:8px 10px; font-size:0.9rem; }
+  }
+
+  .feature-table {
+    width:100%;
+    border-collapse:collapse;
+    margin:12px 0;
+    background:rgba(0,0,0,0.3);
+    border-radius:8px;
+    overflow:hidden;
+  }
+  
+  .feature-table th {
+    background:linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+    color:#FFFFFF;
+    padding:10px;
+    text-align:left;
+    font-weight:800;
+    border-bottom:3px solid #1B5E20;
+    text-shadow:1px 1px 0 rgba(0,0,0,0.5);
+  }
+  
+  .feature-table td {
+    padding:10px;
+    color:#2c3e50;
+    border-bottom:1px solid rgba(46,125,50,0.1);
+  }
+  
+  .feature-table tr:last-child td {
+    border-bottom:none;
+  }
+
+  .warning-box {
+    background:#FFF9C4;
+    border:3px solid #FFA000;
+    border-radius:10px;
+    padding:12px;
+    margin:12px 0;
+    color:#E65100;
+    font-weight:700;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>🛒 Fight in a Supermarket</h1>
+    <h2>Scripts & Codes Hub</h2>
+    <div class="subnav" aria-label="site links">
+      <a href="/">Scripts</a>
+      <a href="codes.html">Codes</a>
+      <a href="sites.html">All Sites</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Fight in a Supermarket Script Collection (100% Working)</h1>
+      <p>
+        Welcome to the ultimate Fight in a Supermarket scripts hub! Get the best and newest Roblox scripts featuring 
+        powerful automation tools like Auto Farm Money, Kill Aura, Teleport Kill, ESP, Hitbox Expander, and more. 
+        Fight in a Supermarket is an action-packed Roblox experience where you battle other players in a chaotic 
+        supermarket environment, collect cash, and dominate the competition with various weapons.
+      </p>
+      <p>
+        Each script below is fully functional, verified, and can be copied or downloaded as a `.lua` file for easy 
+        execution on both PC and Mobile. Whether you're looking for keyless instant cash scripts, kill aura features, 
+        or premium automation tools, we've got everything you need to enhance your Fight in a Supermarket experience 
+        without any bans or issues.
+      </p>
+      <div class="warning-box">
+        ⚠️ <strong>Important:</strong> Use scripts responsibly and at your own risk. Test in private servers when 
+        possible to avoid detection. Excessive use in public servers may result in account warnings or bans. Always 
+        use trusted executors like Delta, Synapse X, KRNL, or Fluxus.
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <!-- Script 1 -->
+        <div class="card">
+          <h3>1. Fight in a Supermarket – OP Instant Cash (Keyless)</h3>
+          <p class="small">Powerful keyless script with instant cash features. Get unlimited money fast without any key system hassle!</p>
+          <h4 style="margin-top:8px; margin-bottom:6px; color:#4CAF50;">Script</h4>
+          <div class="script-block" id="script1">loadstring(game:HttpGet("https://raw.githubusercontent.com/RedunzFR/-Fight-in-a-supermarket/refs/heads/main/XScripts"))()
+-- Features: Instant Cash, No Key System, Fast & Easy</div>
+          <div class="script-actions">
+            <button class="btn-copy" data-target="script1">Copy Script</button>
+            <button class="btn-download" data-target="script1" data-filename="fight_supermarket_instant_cash.lua">Download .lua</button>
+          </div>
+        </div>
+
+        <!-- Script 2 -->
+        <div class="card">
+          <h3>2. Fight in a Supermarket – Full Feature Script</h3>
+          <p class="small">Comprehensive script with Teleport Kill, Walk Speed, Auto Collect, ESP, and Hitbox Expander. All premium features in one package!</p>
+          <h4 style="margin-top:8px; margin-bottom:6px; color:#4CAF50;">Script</h4>
+          <div class="script-block" id="script2">loadstring(game:HttpGet("https://rscripts.net/raw/fight-in-a-supermarket-script_1763348273485_CsoQwjuTXJ.txt",true))()
+-- Features: Teleport Kill, Walk Speed, Auto Collect, ESP, Hitbox Expander</div>
+          <div class="script-actions">
+            <button class="btn-copy" data-target="script2">Copy Script</button>
+            <button class="btn-download" data-target="script2" data-filename="fight_supermarket_full_features.lua">Download .lua</button>
+          </div>
+        </div>
+
+        <!-- Script 3 -->
+        <div class="card">
+          <h3>3. Fight in a Supermarket – Money Farm Script</h3>
+          <p class="small">Advanced money farming script that automatically teleports to and collects all spawned cash in the supermarket. Efficient and fast!</p>
+          <h4 style="margin-top:8px; margin-bottom:6px; color:#4CAF50;">Script</h4>
+          <div class="script-block" id="script3">local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local hrp = character:WaitForChild("HumanoidRootPart")
+local folder = workspace:WaitForChild("SpawnedCash")
+
+while wait(0.1) do
+	local money = {}
+	for _, v in pairs(folder:GetChildren()) do
+		if v.Name == "Money" and v:IsA("Model") then
+			table.insert(money, v)
+		end
+	end
+	if #money > 0 then
+		local m = money[math.random(1, #money)]
+		local part = m:FindFirstChild("PrimaryPart") or m:FindFirstChildWhichIsA("BasePart")
+		if part then
+			hrp.CFrame = part.CFrame + Vector3.new(0, 3, 0)
+		end
+	end
+end
+-- Features: Auto Teleport to Cash, Auto Collect Money, Efficient Loop</div>
+          <div class="script-actions">
+            <button class="btn-copy" data-target="script3">Copy Script</button>
+            <button class="btn-download" data-target="script3" data-filename="fight_supermarket_money_farm.lua">Download .lua</button>
+          </div>
+        </div>
+
+        <!-- Script 4 -->
+        <div class="card">
+          <h3>4. Fight in a Supermarket – Auto ATM + Auto Money + Auto Attack</h3>
+          <p class="small">Complete automation script with Auto ATM deposits, Auto Money collection, and Auto Attack features. Perfect for AFK farming!</p>
+          <h4 style="margin-top:8px; margin-bottom:6px; color:#4CAF50;">Script</h4>
+          <div class="script-block" id="script4">loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/3dd5f27425b82e4625d198bafe35f7c8b0d4f20c97592831d0a1e14a52e0680c/download"))()
+-- Features: Auto ATM, Auto Money Collection, Auto Attack, AFK Friendly</div>
+          <div class="script-actions">
+            <button class="btn-copy" data-target="script4">Copy Script</button>
+            <button class="btn-download" data-target="script4" data-filename="fight_supermarket_auto_atm_attack.lua">Download .lua</button>
+          </div>
+        </div>
+
+        <!-- Script 5 -->
+        <div class="card">
+          <h3>5. Fight in a Supermarket – Auto Farm + Kill Aura (Premium GUI)</h3>
+          <p class="small">Professional GUI script with Auto Farm money and Kill Aura. Automatically farms cash and eliminates nearby enemies with smart targeting!</p>
+          <h4 style="margin-top:8px; margin-bottom:6px; color:#4CAF50;">Script</h4>
+          <div class="script-block" id="script5">--!strict
+local SCRIPT_VERSION = "0.0.1"
+local LIBRARY_ID = "fs_pubmain"
+local GAME_NAME = "Fight in a Supermarket!"
+if getgenv()[LIBRARY_ID] then
+	pcall(function()
+		getgenv()[LIBRARY_ID]:Destroy()
+	end)
+end
+
+local players = game:GetService("Players")
+local local_player = players.LocalPlayer
+
+local function load_url<A..., R...>(url: string): (A...) -> R...
+	local Callback, Error = loadstring(game:HttpGet(url))
+	if Error then
+		return error(Error, 2)
+	end
+	return (Callback :: any) :: (A...) -> R...
+end
+local empty_callback = function() end
+
+local library: AnkaUi = load_url("https://raw.githubusercontent.com/nfpw/XXSCRIPT/refs/heads/main/Library/Module.lua")()
+getgenv()[LIBRARY_ID] = library
+local window = library:CreateWindow({
+	WindowName = `Public Main {GAME_NAME} v{SCRIPT_VERSION}`,
+}, gethui())
+
+local main_tab = window:CreateTab("main")
+local main_section = main_tab:CreateSection("main")
+local kill_aura = main_section:CreateToggle("kill aura", false, empty_callback)
+local auto_farm = main_section:CreateToggle("auto farm", false, empty_callback)
+local auto_farm_thread = task.spawn(function()
+	if not firetouchinterest then
+		window:Notify(GAME_NAME, "auto farm might not work correctly!")
+		firetouchinterest = function() end :: any
+	end
+	while task.wait(1) do
+		if not auto_farm:GetState() or not local_player.Character then
+			continue
+		end
+		local orig = local_player.Character:GetPivot()
+		for i, money in workspace.SpawnedCash:GetChildren() do
+			if i > 50 then
+				break
+			end
+			if not money:FindFirstChild("MoneyHitbox") then
+				continue
+			end
+			local_player.Character:PivotTo(money.MoneyHitbox.CFrame)
+			firetouchinterest(money.MoneyHitbox, local_player.Character.Head, 1)
+			task.wait()
+			firetouchinterest(money.MoneyHitbox, local_player.Character.Head, 0)
+		end
+		local_player.Character:PivotTo(orig)
+	end
+end)
+local kill_aura_thread = task.spawn(function()
+	while task.wait() do
+		if not kill_aura:GetState() or not local_player.Character then
+			continue
+		end
+		local tool = local_player.Character:FindFirstChildOfClass("Tool")
+		if not tool then
+			continue
+		end
+		local hit_event = tool.WeaponHitEvent
+		local target, distance = nil, 10
+		for _, player in players:GetPlayers() do
+			if player ~= local_player and player.Character and player.Character:FindFirstChild("Head") then
+				local current_distance = (local_player.Character.Head.Position - player.Character.Head.Position).Magnitude
+				if current_distance < distance then
+					target = player
+					distance = current_distance
+				end
+			end
+		end
+		if not target then
+			continue
+		end
+
+		local_player.Character:PivotTo(
+			target.Character:GetPivot() - Vector3.new(0, 7)
+		)
+
+		hit_event:FireServer(target.Character.Head)
+	end
+end)
+
+main_section:CreateButton("unload script", function()
+	library:Destroy()
+end)
+
+local old = library.Destroy
+library.Destroy = function(...)
+	task.cancel(auto_farm_thread)
+	task.cancel(kill_aura_thread)
+	return old(...)
+end
+-- Features: Kill Aura with Smart Targeting, Auto Farm Money, Professional GUI, Unload Button</div>
+          <div class="script-actions">
+            <button class="btn-copy" data-target="script5">Copy Script</button>
+            <button class="btn-download" data-target="script5" data-filename="fight_supermarket_premium_gui.lua">Download .lua</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- right sidebar -->
+      <aside>
+        <div class="card">
+          <h3>What Is Fight in a Supermarket Script?</h3>
+          <p class="small">
+            Fight in a Supermarket script is a powerful Lua-based automation tool designed for the chaotic Roblox 
+            fighting experience where you battle other players in a supermarket setting, collect cash, and purchase 
+            weapons. These scripts enhance your gaming experience by providing powerful features like Auto Farm Money, 
+            Kill Aura, Teleport Kill, ESP, and Hitbox Expander.
+          </p>
+          <p class="small">
+            Once you activate the script using a trusted executor, it provides access to advanced automation features 
+            that eliminate repetitive grinding and give you a competitive edge. Collect money automatically, eliminate 
+            enemies with kill aura, and dominate the supermarket with Fight in a Supermarket scripts.
+          </p>
+
+          <h3 style="margin-top:16px;">Key Features</h3>
+          <table class="feature-table">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Auto Farm Money</strong></td>
+                <td>Automatically collects all spawned cash in the supermarket.</td>
+              </tr>
+              <tr>
+                <td><strong>Kill Aura</strong></td>
+                <td>Automatically attacks nearby enemies with smart targeting.</td>
+              </tr>
+              <tr>
+                <td><strong>Teleport Kill</strong></td>
+                <td>Teleports to enemies and eliminates them instantly.</td>
+              </tr>
+              <tr>
+                <td><strong>ESP</strong></td>
+                <td>See all players through walls with visual indicators.</td>
+              </tr>
+              <tr>
+                <td><strong>Hitbox Expander</strong></td>
+                <td>Increases hitbox size for easier hits on enemies.</td>
+              </tr>
+              <tr>
+                <td><strong>Walk Speed</strong></td>
+                <td>Adjust your movement speed for faster navigation.</td>
+              </tr>
+              <tr>
+                <td><strong>Auto Collect</strong></td>
+                <td>Automatically picks up money and items.</td>
+              </tr>
+              <tr>
+                <td><strong>Auto ATM</strong></td>
+                <td>Automatically deposits money at ATM machines.</td>
+              </tr>
+              <tr>
+                <td><strong>Instant Cash</strong></td>
+                <td>Get unlimited money instantly without grinding.</td>
+              </tr>
+              <tr>
+                <td><strong>Keyless Scripts</strong></td>
+                <td>No annoying key systems - instant access to features.</td>
+              </tr>
+              <tr>
+                <td><strong>Mobile Support</strong></td>
+                <td>Works perfectly on both PC and mobile devices.</td>
+              </tr>
+              <tr>
+                <td><strong>Regular Updates</strong></td>
+                <td>Scripts updated frequently to match game changes.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>How To Use Fight in a Supermarket Scripts</h3>
+          <p class="small">
+            Using scripts for Fight in a Supermarket requires a Roblox executor. Follow these steps to activate powerful 
+            automation features and dominate the supermarket battles on both PC and Mobile.
+          </p>
+
+          <ol class="small" style="padding-left:20px;">
+            <li style="margin-bottom:8px;"><strong>Download Executor:</strong> Get Delta, Synapse X, KRNL, or Fluxus. Mobile: Delta iOS, Codex iOS, Fluxus Android. Disable antivirus if blocked.</li>
+            <li style="margin-bottom:8px;"><strong>Install & Setup:</strong> Complete installation and unlock with key if needed.</li>
+            <li style="margin-bottom:8px;"><strong>Launch Game:</strong> Open Roblox and join Fight in a Supermarket experience.</li>
+            <li style="margin-bottom:8px;"><strong>Inject Executor:</strong> Click "Inject" or "Attach" to connect the executor.</li>
+            <li style="margin-bottom:8px;"><strong>Copy Script:</strong> Use the "Copy Script" button on any script above.</li>
+            <li style="margin-bottom:8px;"><strong>Execute:</strong> Paste script into executor and click "Execute" to activate instantly.</li>
+          </ol>
+
+          <div class="warning-box" style="margin-top:12px;">
+            ⚠️ Always test scripts in private servers first. Using scripts in public servers increases detection risk and may result in temporary bans.
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>Why Players Use These Scripts</h3>
+          
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Instant Money Farming</strong><br>
+            Scripts automate money collection by teleporting to all spawned cash. What takes hours of manual grinding 
+            can be done in minutes with automatic cash farming.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Combat Dominance</strong><br>
+            Gain an unfair advantage with Kill Aura, Teleport Kill, and Hitbox Expander. Eliminate enemies effortlessly 
+            while they struggle to land hits on you.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">AFK Farming</strong><br>
+            Leave scripts running while you're away. Auto Farm Money, Auto ATM, and Auto Attack features work 24/7 to 
+            build your wealth and dominate the leaderboard.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Mobile Compatible</strong><br>
+            All scripts work perfectly on mobile devices. Use mobile executors to get the same powerful features on 
+            iOS and Android devices.
+          </p>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>Frequently Asked Questions</h3>
+          
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Q: Are Fight in a Supermarket scripts safe to use?</strong><br>
+            Scripts from trusted sources are generally safe, but any script usage carries account risk. Always test in 
+            private servers and use scripts with anti-ban protection when available.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Q: Do I need keys for these scripts?</strong><br>
+            Most scripts are keyless for instant access! Script 1 (OP Instant Cash) is completely keyless. Only premium 
+            features may require verification, but all basic features work without keys.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Q: Can I use scripts on mobile?</strong><br>
+            Yes! All scripts are mobile-compatible. Use mobile executors like Delta iOS, Codex iOS, or Fluxus Android 
+            for iOS and Android devices.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Q: Which script is best for money farming?</strong><br>
+            Script 3 (Money Farm) and Script 5 (Auto Farm + Kill Aura) are specifically designed for efficient money 
+            farming with automatic teleportation and collection features.
+          </p>
+
+          <p class="small" style="margin-top:12px;">
+            <strong style="color:#2E7D32;">Q: How do I avoid getting banned?</strong><br>
+            Test in private servers, use scripts with bypass features, avoid excessive automation in public servers, 
+            and don't use scripts 24/7. Moderate usage is key to staying undetected.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Fight in a Supermarket Community — scripts shared by players. Not affiliated with Roblox.</p>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite">Copied!</div>
+
+  <script>
+    (function(){
+      const toast = document.getElementById('toast');
+
+      function showToast(msg='Copied!') {
+        toast.textContent = msg;
+        toast.style.display = 'block';
+        toast.style.opacity = '1';
+        clearTimeout(window._toastTimer);
+        window._toastTimer = setTimeout(()=>{
+          toast.style.opacity = '0';
+          setTimeout(()=> toast.style.display = 'none', 300);
+        }, 1600);
+      }
+
+      document.querySelectorAll('.btn-copy').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+          const targetId = btn.getAttribute('data-target');
+          const el = document.getElementById(targetId);
+          if(!el) return;
+          const text = el.textContent || el.innerText || '';
+          if(navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(()=>{
+              showToast('Script copied to clipboard');
+              const old = btn.textContent;
+              btn.textContent = 'Copied!';
+              setTimeout(()=> btn.textContent = old, 1200);
+            }).catch(()=> fallbackCopy(text));
+          } else {
+            fallbackCopy(text);
+          }
+
+          function fallbackCopy(txt){
+            const ta = document.createElement('textarea');
+            ta.value = txt;
+            document.body.appendChild(ta);
+            ta.select();
+            try {
+              document.execCommand('copy');
+              showToast('Script copied to clipboard');
+            } catch(e) {
+              showToast('Copy failed — select manually');
+            }
+            document.body.removeChild(ta);
+          }
+        });
+      });
+
+      document.querySelectorAll('.btn-download').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+          const targetId = btn.getAttribute('data-target');
+          const filename = btn.getAttribute('data-filename') || 'script.lua';
+          const el = document.getElementById(targetId);
+          if(!el) return;
+          const text = el.textContent || el.innerText || '';
+          const blob = new Blob([text], {type: 'text/plain;charset=utf-8'});
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = filename;
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(()=>{
+            URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+          }, 250);
+          showToast('Download started: ' + filename);
+        });
+      });
+
+    })();
+  </script>
+</body>
+</html>
